@@ -1,0 +1,13 @@
+# Zig build artifacts
+.zig-cache/
+zig-out/
+
+# CMake build tree for the VST3 wrapper
+build/
+
+# Local build-output captures
+build_*.txt
+test_*.txt
+
+# Vendored third-party sources (fetched via scripts/vendor.ps1)
+vendor/
